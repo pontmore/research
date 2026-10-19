@@ -1,0 +1,189 @@
+[
+  {
+    "label": "single-resolver",
+    "params": {
+      "k": 4,
+      "t": 1,
+      "n": 1,
+      "j": 2
+    },
+    "root_id": "ff7ff0f52fb78862711f6d9219a333b4a5e48d827b6d78d12729fd069a7e83e8",
+    "resolvers": [
+      {
+        "m": 1,
+        "secret": "09ee8899c22968a9bd67eb7f92df9011b56bbc0b72ceb76f86eda3363e21cd07",
+        "xonly": "276d9911ce2b5707f11004db5748ad7edb7754473a8e19033ff80ee80b77ddc0"
+      }
+    ],
+    "commitment": [
+      {
+        "E": "039a3925a1eceffbad009bcaccc3a68127a163e911c53eff23d318c0782215ca86",
+        "H": "0df16175085140306eb1ae3a4d99b75568e8a8067fbabf1053c5855c734c2349",
+        "c": [
+          "ae4d7d5f81c37ca47b7ea5c88ac9ca086daf1f7f02460f48f6ec92ab2c00f0d7"
+        ]
+      },
+      {
+        "E": "03c8c94e8a82c80ff2f6e9e8b504f3f3ef4f7612d08c3fdd828f5469f5f35edcc1",
+        "H": "b8a4f1acd8e403ff605f229061fc9321c01a20007547327ce32cf6cd9c7c80fe",
+        "c": [
+          "73b284767c36e9620be41ceaf21f246541b1bcf2bac3889f731033dadf870e34"
+        ]
+      },
+      {
+        "E": "02551c869e129023ba9a0f97e2f3422056853b85c4791996af1e80302f50278dc5",
+        "H": "de29f84bedbe109a218ce1222414c17bd108b55dafcbd4c3d1e791228ba2d38a",
+        "c": [
+          "2d2d852c1b797eef6574b5c733efd59bd04591647fc6b02bdee71793b3c7304c"
+        ]
+      },
+      {
+        "E": "021dfa01c6477f9511b4379532c314213c5366b03346e1d9c61fa7c7985ba8a32e",
+        "H": "5d638695479b1d4a777063621aa7e2f5755bacbaa4d763dc4d53f4a76cb6b01f",
+        "c": [
+          "cd346e729687706bbbaa41f9f65f753342de1ca9a282e66ce689a3a02e5bb33c"
+        ]
+      }
+    ],
+    "challenge": 2,
+    "openings": {
+      "0": "fcd63b434492346c9a40fff774b60138c835fce689123f0232939a61997e1a30",
+      "1": "d4090bef50cec502485262fd30609b67210b7f5c1f4a769f1a4fcb62632d806e",
+      "3": "a31a1883a7d1c9797ad824e40c49b13c2b3b2073c28dca02b9ed36f7ceb86431"
+    },
+    "resolution": {
+      "shares": [
+        {
+          "m": 1,
+          "share": "e44e3fc736966a9207af1a8af10ba9d09f5e1a170a8c8c5d03a99394bdf04da8",
+          "S": "0287a859623f2f030ee9d05066ea443c8ceb3cca4727439cfc772195763818accb",
+          "dleq": {
+            "c": "de79bc0486b759bd02a9b5f146d40646fc5682452df8e60eeed9425aae83eace",
+            "z": "324d6cdf51b211bfde1868c6b3be19c8a9d752d6ff93b285fdbda547fc70a880"
+          }
+        }
+      ],
+      "preimage": "e44e3fc736966a9207af1a8af10ba9d09f5e1a170a8c8c5d03a99394bdf04da8",
+      "payment_hash": "de29f84bedbe109a218ce1222414c17bd108b55dafcbd4c3d1e791228ba2d38a"
+    },
+    "negative": [
+      {
+        "case": "wrong H",
+        "opening": 0,
+        "error": "H != sha256(P)"
+      },
+      {
+        "case": "wrong c",
+        "opening": 0,
+        "error": "H != sha256(P)"
+      },
+      {
+        "case": "wrong e",
+        "opening": 0,
+        "error": "E != e·G"
+      }
+    ]
+  },
+  {
+    "label": "panel-2-of-3",
+    "params": {
+      "k": 4,
+      "t": 2,
+      "n": 3,
+      "j": 1
+    },
+    "root_id": "485d48870b6af8be24335b03c3b780b1b389c907906084ef547304daabb318e4",
+    "resolvers": [
+      {
+        "m": 1,
+        "secret": "d762fe78f3e1bbfa1448b3abbf7c3de4390c8aa6e19f7716edfed11fe537836a",
+        "xonly": "503afcf8284052c7d31399671b03f8b27b8a55c10a216d88941a398e7547763c"
+      },
+      {
+        "m": 2,
+        "secret": "d5936b1e0c93deb7ce9597f3f10f0985da5176779a09f39516ac3515a886a701",
+        "xonly": "26c310b97f68f249ba97bd041c90848b8af7291fdc60455b6b457820ee0e9ecd"
+      },
+      {
+        "m": 3,
+        "secret": "9e6fdc321e3e9258dc9c42742fd15e4b49195782745bb94499e1a1d901a916c5",
+        "xonly": "019941765ab0a40b907af58b84c1e460a5267a01602b4705a7e51b71649a901d"
+      }
+    ],
+    "commitment": [
+      {
+        "E": "029992bf30a0b3ede79897fe38877175ad9ef59f0e7754b17f385a14c1adc42660",
+        "H": "09c3387e963158c3ad1852151c482ef9121938c09899c6ef19ea7ea7be582340",
+        "c": [
+          "40c9f0c57152c618eba167e557474ddee70ceef346b26a2655aaa800b5c424fc",
+          "c178451850322b53e3ae776abcb428c96c80907f633d271cdb7d191771d5ca08",
+          "8dee0a04695686a990eeb43f5ba53e4b5ba1dfa8d12b7942b3683384fe154ea9"
+        ]
+      },
+      {
+        "E": "026cf65103fcaeea13f68841434f67a8191d37d67fc50d7f2ac15a57e08e9f3618",
+        "H": "b766cbdda45df92246bad6af8e96ff560b12b3ef33a069d15f382bba9c41fee1",
+        "c": [
+          "65123fef31f6e42505ae17b7e3873703489665f895f2eecb753dd591de84ba8a",
+          "0155d18058052feb5b92d22e7bf5d3722ebc55d3637c07fab20fbf9877d60880",
+          "b1bb99ca6e48bb40a48a2292907c99a1c87b915be7e7153bdd6f150de168ff44"
+        ]
+      },
+      {
+        "E": "03cc9b14c1c682ce4520506556d48a098ae6042349d2ce2c6d6b331a01e483aa64",
+        "H": "007193eee8f07c6c7ae2bec3a7d928dc49755e55f5d657a6477909df5a84f048",
+        "c": [
+          "970846fd7337e00b7c5d6042dd5ffdbd4a718f3d5062478a1524ff0421f1bd7f",
+          "2172a7bcb8377c6f3609d66fbf9ad20c81c2113ef0897bf06b1b5deba8cda43d",
+          "36a6d84d644f716ee269de6000efaeea95f2025b58cd513955cc34da8aadf434"
+        ]
+      },
+      {
+        "E": "02870418573ff7cf8c13526c6d38fa984d13b4556a5e3ff2de3a7cd5adfce55828",
+        "H": "bebfce271b228998b95a87c3b15182467b8b65bff0263a8eb203c2c3dc370210",
+        "c": [
+          "5b0d54ce65932906a92bd44d8de41d4e5cbcf182c4c45bdfc7870c02e5f56dd2",
+          "41e04da41f9910a29807651ff7e8580410823eb20b072231d387a9cf8ba7b621",
+          "d3e7b35c8116c6a8f57884efc912a9eada1e774c2b4fdd8e47a6700a82bc93f8"
+        ]
+      }
+    ],
+    "challenge": 1,
+    "openings": {
+      "0": "119e5712ef2f46b35e86473d91cd0c75063975d923102d5fe6ef051108f87cd3",
+      "2": "3dd349cfeb1f8ba17000a0f36bd848f373306140a24e5327575f825f60c128e2",
+      "3": "3964fab33dbbffe66d6a7f6d2b791cb5ff9589482cb32c758e8ab4d585363fbe"
+    },
+    "resolution": {
+      "shares": [
+        {
+          "m": 1,
+          "share": "ef1549f6e1b2027105662037b7b4e603ecb6a72f3fb7f359ba8e3b3fca826023",
+          "S": "027739b6e5194799b65530e43c07cf2fd520e585bc552b3c217156e572c33d513e",
+          "dleq": {
+            "c": "a5d6fb496838f4eaaa64310953e3e74a013cf6e12dc9fe1f55db91d668a01934",
+            "z": "4a9eb5abb6f0e4c1b7bec7624aaf25d8ddf4b84bf33d53a09e0357df1a2455f6"
+          }
+        },
+        {
+          "m": 2,
+          "share": "53cfa9dc948f774e4bc447af08b92f350f364a5ae97142ae2ef95941bbaadfb5",
+          "S": "0249655b384e434b06a4e621d4d33aaaa48ba85ac57495aa650ace1ee55959d889",
+          "dleq": {
+            "c": "4a4450c8cb592c95f47dd4f8133860d0cc94f4a02560f70ac8c92d1fbc4fe583",
+            "z": "1560583074a4bdd98687b1a69c7dc3ced8e14a68cbd6b6c4038f1fd9f3c25228"
+          }
+        }
+      ],
+      "preimage": "8a5aea112ed48d93bf07f8c066b09cd40f88271ce6b603c98650beb109239f50",
+      "payment_hash": "b766cbdda45df92246bad6af8e96ff560b12b3ef33a069d15f382bba9c41fee1"
+    },
+    "negative": [
+      {
+        "case": "share 3 off-polynomial",
+        "opening": 0,
+        "error": "shares not on one degree t-1 polynomial"
+      }
+    ]
+  }
+]
